@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Test for video</title>
     </head>
     <body>
-        <embed src="test_video.mp4" width="1000px" height="1000px" autostart=True style="margin:auto auto;"></embed> 
+        <video autoplay muted loop id="tvid">
+           <source src="test_video.mp4" type="video/mp4">
+        </video>
     </body>
 </html>
