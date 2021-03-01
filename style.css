@@ -1,2 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #overlay{
+    position: absolute;
+    background-color: rgba(116, 116, 116, 1);
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    mix-blend-mode: saturation;
+} */
 
-  
+
+video{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
